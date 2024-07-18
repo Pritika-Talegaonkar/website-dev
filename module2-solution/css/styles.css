@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Desktop Version */
+@media (min-width: 991px) {
+    .heading{
+        text-align: center;
+        margin-bottom: 30px;
+        font-size: 75%;
+    }
+    .section1,.section2,.section3 {
+        font-size: 25%;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        float : left;
+        width: 33.33%;
+        margin: 15px;
+        border: 1px solid black;
+        padding: 15px;
+        background-color: gray;
+    }
+    .div1,.div2,.div3{
+        border: 1px solid black;
+    }
+    .div1{
+        background-color: pink;
+        position: relative;
+        right: 0;
+        top: 0;
+    }
+    .div2{
+        background-color: brown;
+        position: relative;
+        right: 0;
+        top: 0;
+    }
+    .div3{
+        background-color: darkkhaki;
+        position: relative;
+        right: 0;
+        top: 0;
+    }
+    
+    
+}
+
+/* Tablet View */
+@media (min-width: 768px) and (max-width: 991px) {
+    .heading{
+        text-align: center;
+        margin-bottom: 30px;
+        font-size: 75%;
+    }
+    .section1,.section2,.section3 {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 25%;
+        float : left;
+        margin: 15px;
+        border: 1px solid black;
+        padding: 15px;
+        background-color: gray;
+    }
+    .div1,.div2,.div3{
+        border: 1px solid black;
+    }
+    .section1,.section2{
+        width: 50%;
+    }
+    .section3{
+        width: 100%;
+    }
+    .div1{
+        background-color: pink;
+        position: relative;
+        right: 0;
+        top: 0;
+    }
+    .div2{
+        background-color: brown;
+        position: relative;
+        right: 0;
+        top: 0;
+    }
+    .div3{
+        background-color: darkkhaki;
+        position: relative;
+        right: 0;
+        top: 0;
+    }
+    
+}
+
+/* Mobile View */
+@media (max-width: 767px) {
+    .heading{
+        text-align: center;
+        margin-bottom: 30px;
+        font-size: 75%;
+    }
+    .section1,.section2,.section3 {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 25%;
+        float : left;
+        margin: 15px;
+        border: 1px solid black;
+        padding: 15px;
+        background-color: gray;
+    }
+    .section1,.section2,.section3 {
+        width: 100%;
+    }
+    .div1,.div2,.div3{
+        border: 1px solid black;
+    }
+    .div1{
+        background-color: pink;
+        position: relative;
+        right: 0;
+        top: 0;
+    }
+    .div2{
+        background-color: brown;
+        position: relative;
+        right: 0;
+        top: 0;
+    }
+    .div3{
+        background-color: darkkhaki;
+        position: relative;
+        right: 0;
+        top: 0;
+    }
+    
+}
