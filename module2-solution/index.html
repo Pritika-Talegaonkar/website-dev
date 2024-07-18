@@ -6,23 +6,24 @@
             * {
                 box-sizing: border-box;
             }
-
-            /* Desktop Version */
-            @media (min-width: 991px) {
+            /* Mobile View */
+            @media (max-width: 767px) {
                 .heading{
                     text-align: center;
                     margin-bottom: 30px;
                     font-size: 75%;
                 }
                 .section1,.section2,.section3 {
-                    font-size: 25%;
                     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                    font-size: 25%;
                     float : left;
-                    width: 33.33%;
                     margin: 15px;
                     border: 1px solid black;
                     padding: 15px;
                     background-color: gray;
+                }
+                .section1,.section2,.section3 {
+                    width: 100%;
                 }
                 .div1,.div2,.div3{
                     border: 1px solid black;
@@ -45,7 +46,6 @@
                     right: 0;
                     top: 0;
                 }
-                
                 
             }
 
@@ -95,24 +95,22 @@
                 
             }
 
-            /* Mobile View */
-            @media (max-width: 767px) {
+            /* Desktop Version */
+            @media (min-width: 991px) {
                 .heading{
                     text-align: center;
                     margin-bottom: 30px;
                     font-size: 75%;
                 }
                 .section1,.section2,.section3 {
-                    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
                     font-size: 25%;
+                    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
                     float : left;
+                    width: 33.33%;
                     margin: 15px;
                     border: 1px solid black;
                     padding: 15px;
                     background-color: gray;
-                }
-                .section1,.section2,.section3 {
-                    width: 100%;
                 }
                 .div1,.div2,.div3{
                     border: 1px solid black;
@@ -135,6 +133,7 @@
                     right: 0;
                     top: 0;
                 }
+                
                 
             }
         </style>
