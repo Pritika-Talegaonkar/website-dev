@@ -16,9 +16,7 @@
 .navbar-brand h1{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: black;
-    font-size: 1.5em;
-    text-transform: uppercase;
-    font-weight: bold;
+    font-size: 2em;
     text-shadow: 1px 1px 1px #222;
     margin-top: 0;
     margin-bottom: 0;
@@ -45,4 +43,21 @@
 .navbar-header button.navbar-toggle {
     clear: both;
     margin-top: -40px;
+}
+
+.navbar-header {
+    padding: 15px;
+    padding-top: 10px;
+}
+
+#nav-list a {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+@media (max-width: 768px){
+    #nav-list {
+        width: 100%;
+        background: white;
+        border: 1px solid black;
+    }
 }
