@@ -7,10 +7,15 @@ body{
     border: 0;
     width: 100%;
 }
+#main-content {
+    margin-left: auto;
+    margin-right: auto;
+}
 #header-nav {
     background-color: gray;
     border-radius: 0;
     border: 0;
+    width: 100%;
 }
 .heading{
     margin-top: 15px;
