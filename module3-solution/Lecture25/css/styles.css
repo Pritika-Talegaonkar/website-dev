@@ -7,10 +7,6 @@ body{
     border: 0;
     width: 100%;
 }
-#main-content {
-    margin-left: auto;
-    margin-right: auto;
-}
 #header-nav {
     background-color: gray;
     border-radius: 0;
@@ -37,10 +33,10 @@ body{
 .navbar-brand a:hover, .navbar-brand a:focus {
     text-decoration: none;
 }
-.container {
+/* .container {
     margin-left: 15px;
     margin-right: 15px;
-}
+} */
 .navbar-brand h1{
     font-family: Helvetica, sans-serif;
     color: black;
@@ -73,10 +69,10 @@ body{
     #collapsable-nav {
         padding: 0;   
     }
-    .container{
+    /* .container{
         margin: 0;
         padding: 0;
-    }
+    } */
     #collapsable-nav #nav-list a{
         border: 1px solid black;
     }
