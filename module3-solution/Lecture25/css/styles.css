@@ -3,6 +3,10 @@
     border-radius: 0;
     border: 0;
 }
+.container{
+    margin: 0;
+    padding: 0;
+}
 
 .navbar-brand a:hover, .navbar-brand a:focus {
     text-decoration: none;
@@ -54,7 +58,19 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+.navbar-brand h1{
+    padding-left: 15px;
+}
+
 @media (max-width: 768px){
+    #collapsable-nav {
+        padding: 0;
+    }
+
+    #collapsable-nav .nav-list li{
+        border: 1px solid black;
+    }
+
     #nav-list {
         width: 100%;
         background: white;
