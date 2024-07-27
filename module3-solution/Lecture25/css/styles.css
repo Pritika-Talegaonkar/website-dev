@@ -23,18 +23,7 @@
     line-height: .75;
 }
 
-#nav-list {
-    margin-top: 10px;
-}
 
-#nav-list a {
-    color: black;
-    text-align: center;
-}
-
-#nav-list a:hover{
-    background: #e7e7e7;
-}
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
     border: 1px solid black;
@@ -50,9 +39,7 @@
     padding-top: 10px;
 }
 
-#nav-list a {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
+
 
 .navbar-brand h1{
     padding-left: 15px;
@@ -66,12 +53,20 @@
         margin: 0;
         padding: 0;
     }
-    #collapsable-nav .nav-list a{
+    #collapsable-nav #nav-list a{
         border: 1px solid black;
     }
+    #nav-list a:hover{
+        background: gray;
+    }
+    #nav-list a {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
     #nav-list {
+        text-align: center;
+        margin: 0;
+        border:0;
         width: 100%;
         background: white;
-        border: 1px solid black;
     }
 }
