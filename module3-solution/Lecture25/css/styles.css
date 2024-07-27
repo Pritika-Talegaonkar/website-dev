@@ -3,10 +3,6 @@
     border-radius: 0;
     border: 0;
 }
-.container{
-    margin: 0;
-    padding: 0;
-}
 
 .navbar-brand a:hover, .navbar-brand a:focus {
     text-decoration: none;
@@ -64,13 +60,15 @@
 
 @media (max-width: 768px){
     #collapsable-nav {
+        padding: 0;   
+    }
+    .container{
+        margin: 0;
         padding: 0;
     }
-
-    #collapsable-nav .nav-list li{
+    #collapsable-nav .nav-list a{
         border: 1px solid black;
     }
-
     #nav-list {
         width: 100%;
         background: white;
