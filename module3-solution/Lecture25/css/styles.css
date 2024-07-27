@@ -56,9 +56,9 @@ body{
 
 /* mobile view */
 @media (max-width: 767px){
-    /* .col-xs-12 {
+    .col-xs-12 {
         width: calc(100% - 10px);
-    } */
+    }
     #collapsable-nav {
         padding: 0;   
     }
@@ -81,18 +81,18 @@ body{
 }
 
 /* tablet view */
-/* @media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 991px) {
     .col-sm-6{
         width: calc(50% - 10px);
     }
     .col-sm-12{
         width: calc(100% - 10px);
     }
-} */
+}
 
 /* desktop view */
-/* @media (min-width: 992px) {
+@media (min-width: 992px) {
     .col-md-4{
         width: calc(33.33% - 10px);
     }
-} */
+}
