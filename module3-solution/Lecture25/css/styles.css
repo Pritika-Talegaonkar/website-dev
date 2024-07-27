@@ -5,8 +5,8 @@ body{
     padding: 0;
     margin: 0;
 }
-.navbar .container{
-    margin: 15px;
+.container {
+    width: auto;
 }
 #header-nav {
     background-color: gray;
