@@ -65,7 +65,7 @@
     #nav-list {
         text-align: center;
         margin: 0;
-        border:0;
+        border:2px solid black;
         width: 100%;
         background: white;
     }
