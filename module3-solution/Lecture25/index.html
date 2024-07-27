@@ -30,43 +30,53 @@
         <div id ="collapsable-nav" class = "collapse navbar-collapse">
           <ul id = "nav-list" class ="visible-xs nav navbar-nav navbar-right">
             <li class = "active">
-              <a href="">
+              <a href="#Chicken">
                 Chicken
               </a>
             </li>
             <li class = "active">
-              <a href="">
+              <a href="#Beef">
                 Beef
               </a>
             </li>
             <li class = "active">
-              <a href="">
+              <a href="#Sushi">
                 Sushi
               </a>
             </li>
 
           </ul>
         </div>
-      </div>
+      </div> <!--container-->
     </nav>
   </header> <!--header-->
-  
-  <h2 class = "heading"> Our Menu </h2>
-  <section class="s1">
-      <div class = "div1"> Chicken </div>
-      <div class = "section1">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia distinctio aliquid cupiditate perferendis fuga, sit quasi alias vero sunt non, ratione earum dolores nihil! Consequuntur pariatur totam incidunt soluta expedita. </div>
-  </section>
-  <section class="s2">
-      <div class = "div2"> Beef </div>
-      <div class = "section2">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia distinctio aliquid cupiditate perferendis fuga, sit quasi alias vero sunt non, ratione earum dolores nihil! Consequuntur pariatur totam incidunt soluta expedita. </div>
-  </section>
-  <section class="s3">
-      <div class = "div3"> Sushi </div>
-      <div class = "section3">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia distinctio aliquid cupiditate perferendis fuga, sit quasi alias vero sunt non, ratione earum dolores nihil! Consequuntur pariatur totam incidunt soluta expedita. </div>
-  </section>
+
+  <div class = "container">
+    <h2 id ="top" class = "text-center heading"> Our Menu </h2>
+      <div class = "row">
+        <section class="s1 col-md-4 col-sm-6 col-xs-12">
+            <h3 id="Chicken" class = "text-center"> Chicken </h3>
+            <div class = "section1">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia distinctio aliquid cupiditate perferendis fuga, sit quasi alias vero sunt non, ratione earum dolores nihil! Consequuntur pariatur totam incidunt soluta expedita. 
+                <a class="visible-xs" href="#top"> Back to top </a>
+              </div>
+        </section>
+        <section class="s2 col-md-4 col-sm-6 col-xs-12">
+            <h3 id="Beef" class = "text-center"> Beef </h3>
+            <div class = "section2">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia distinctio aliquid cupiditate perferendis fuga, sit quasi alias vero sunt non, ratione earum dolores nihil! Consequuntur pariatur totam incidunt soluta expedita. 
+                <a class="visible-xs" href="#top"> Back to top </a>
+              </div>
+        </section>
+        <section class="s3 col-md-4 col-sm-12 col-xs-12">
+            <h3 id ="Sushi" class = "text-center"> Sushi </h3>
+            <div class = "section3">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia distinctio aliquid cupiditate perferendis fuga, sit quasi alias vero sunt non, ratione earum dolores nihil! Consequuntur pariatur totam incidunt soluta expedita. 
+                <a class="visible-xs" href="#top"> Back to top </a>
+              </div>
+        </section>
+      </div>
+  </div>
 
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-1.11.3.min.js"></script>
