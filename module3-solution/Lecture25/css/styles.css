@@ -4,14 +4,14 @@
 body{
     padding: 0;
     margin: 0;
-    border: 0;
-    width: 100%;
+}
+.navbar .container{
+    margin: 15px;
 }
 #header-nav {
     background-color: gray;
     border-radius: 0;
     border: 0;
-    width: 100%;
 }
 .heading{
     margin-top: 15px;
@@ -33,11 +33,6 @@ body{
 .navbar-brand a:hover, .navbar-brand a:focus {
     text-decoration: none;
 }
-#main-content {
-    width: 100%;
-    margin: 10px;
-    padding: 10px;
-}
 .navbar-brand h1{
     font-family: Helvetica, sans-serif;
     color: black;
@@ -57,9 +52,6 @@ body{
 .navbar-header {
     padding: 15px;
     padding-top: 10px;
-}
-.navbar-brand h1{
-    padding-left: 15px;
 }
 
 /* mobile view */
@@ -102,6 +94,5 @@ body{
 @media (min-width: 992px) {
     .col-md-4{
         width: calc(33.33% - 10px);
-    } 
-
+    }
 }
